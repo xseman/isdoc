@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonDocument xmlns="http://isdoc.cz/namespace/2013" version="6.0.2">
+  <SubDocumentType>CONTRACT</SubDocumentType>
+  <SubDocumentTypeOrigin>ACME Corp</SubDocumentTypeOrigin>
+  <ID>DOC-2025-001</ID>
+  <UUID>f47ac10b-58cc-4372-a567-0e02b2c3d479</UUID>
+  <IssueDate>2025-01-15</IssueDate>
+  <LastValidDate>2026-01-15</LastValidDate>
+  <Note languageID="cs">Smlouva o poskytování služeb</Note>
+  <AccountingSupplierParty>
+    <Party>
+      <PartyIdentification>
+        <ID>12345678</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name>ACME Corporation s.r.o.</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName>Hlavní</StreetName>
+        <BuildingNumber>123</BuildingNumber>
+        <CityName>Praha</CityName>
+        <PostalZone>11000</PostalZone>
+        <Country>
+          <IdentificationCode>CZ</IdentificationCode>
+          <Name>Česká republika</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <CompanyID>CZ12345678</CompanyID>
+        <TaxScheme>VAT</TaxScheme>
+      </PartyTaxScheme>
+    </Party>
+  </AccountingSupplierParty>
+  <AccountingCustomerParty>
+    <Party>
+      <PartyIdentification>
+        <ID>87654321</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name>Widget Industries a.s.</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName>Vedlejší</StreetName>
+        <BuildingNumber>456</BuildingNumber>
+        <CityName>Brno</CityName>
+        <PostalZone>60200</PostalZone>
+        <Country>
+          <IdentificationCode>CZ</IdentificationCode>
+          <Name>Česká republika</Name>
+        </Country>
+      </PostalAddress>
+      <PartyTaxScheme>
+        <CompanyID>CZ87654321</CompanyID>
+        <TaxScheme>VAT</TaxScheme>
+      </PartyTaxScheme>
+    </Party>
+  </AccountingCustomerParty>
+</CommonDocument>
