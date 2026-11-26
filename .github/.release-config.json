@@ -4,6 +4,8 @@
         ".": {
             "release-as": "0.1.0",
             "release-type": "go",
+			"draft": true,
+			"force-tag-creation": true,
 			"include-v-in-tag": true,
 			"include-component-in-tag": true,
 			"pull-request-title-pattern": "v${version}",
